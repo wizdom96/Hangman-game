@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Gallows game</title>
+  </head>
+  <body>
+    <p id="ratefield"></p>
+    <div class="container">
+      <div class="game">
+        <p class="hint">Hint: English or Italian football team</p>
+
+        <button class="close-window" id="close-window">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </button>
+
+        <button class="newgame" onClick="document.location.reload(true)">
+          New Game
+        </button>
+
+        <img class="hangmanimg" src="./images/7.png" />
+
+        <p id="answerword"></p>
+        <div class="qwerty">
+          <div class="row">
+            <button onclick="hide(id)" class="key" id="Q" value="Q">
+              Q
+            </button>
+            <button onclick="hide(id)" class="key" id="W" value="W">W</button>
+            <button onclick="hide(id)" class="key" id="E" value="E">E</button>
+            <button onclick="hide(id)" class="key" id="R" value="R">R</button>
+            <button onclick="hide(id)" class="key" id="T" value="T">T</button>
+            <button onclick="hide(id)" class="key" id="Y" value="Y">Y</button>
+            <button onclick="hide(id)" class="key" id="U" value="U">U</button>
+            <button onclick="hide(id)" class="key" id="I" value="I">I</button>
+            <button onclick="hide(id)" class="key" id="O" value="O">O</button>
+            <button onclick="hide(id)" class="key" id="P" value="P">P</button>
+          </div>
+          <div class="row">
+            <button onclick="hide(id)" class="key" id="A" value="A">
+              A
+            </button>
+            <button onclick="hide(id)" class="key" id="S" value="S">S</button>
+            <button onclick="hide(id)" class="key" id="D" value="D">D</button>
+            <button onclick="hide(id)" class="key" id="F" value="F">F</button>
+            <button onclick="hide(id)" class="key" id="G" value="G">G</button>
+            <button onclick="hide(id)" class="key" id="H" value="H">H</button>
+            <button onclick="hide(id)" class="key" id="J" value="J">J</button>
+            <button onclick="hide(id)" class="key" id="K" value="K">K</button>
+            <button onclick="hide(id)" class="key" id="L" value="L">L</button>
+          </div>
+          <div class="row">
+            <button onclick="hide(id)" class="key" id="Z" value="Z">Z</button>
+            <button onclick="hide(id)" class="key" id="X" value="X">X</button>
+            <button onclick="hide(id)" class="key" id="C" value="C">C</button>
+            <button onclick="hide(id)" class="key" id="V" value="V">V</button>
+            <button onclick="hide(id)" class="key" id="B" value="B">B</button>
+            <button onclick="hide(id)" class="key" id="N" value="N">N</button>
+            <button onclick="hide(id)" class="key" id="M" value="M">M</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body {
+  background-color: #deeaeefb;
+  padding: 0;
+  margin: 0;
+}
+header {
+  text-align: center;
+}
+.container {
+  margin: none;
+  padding: none;
+}
+.row {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.game {
+  margin-right: 100px;
+}
+.container {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.qwerty img {
+  float: left;
+}
+.key {
+  background-color: #222522;
+  border: 1px solid red;
+  color: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: slategrey;
+}
+
+.hide {
+  display: none;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.hint {
+  font-size: 20px;
+  float: right;
+}
+
+.newgame,
+.close-window {
+  margin: 10px;
+  float: right;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 20px;
+  background-color: lightgray;
+  box-shadow: 0 5px #666;
+}

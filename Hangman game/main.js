@@ -53,8 +53,7 @@ $("button").click(function() {
   var el = document.getElementById("answerword");
   el.innerHTML = answerArray.join(" ");
 
-  if (word.includes(window.x)) {
-  } else {
+  if (!word.includes(window.x)) {
     guessesLeft--;
     document.getElementsByClassName("hangmanimg")[0].src =
       "./images/" + guessesLeft + ".png";
